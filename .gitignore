@@ -13,7 +13,7 @@ settings.json
 *.secret
 *.env
 
-# PowerShell junk / backups
+# PowerShell backups / temp files
 *.ps1.bak
 *.ps1.old
 *.tmp
@@ -25,6 +25,6 @@ Desktop.ini
 # VS Code
 .vscode/
 
-# Keep example files if we deliberately add them
+# Allow sanitized example files
 !examples/*.csv
 !examples/*.xlsx
