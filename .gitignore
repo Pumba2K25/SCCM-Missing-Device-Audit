@@ -1,0 +1,30 @@
+# Real audit data / exports
+*.csv
+*.xlsx
+*.xls
+*.log
+*.txt
+
+# Local configuration / secrets
+config.ps1
+config.json
+settings.json
+*.key
+*.secret
+*.env
+
+# PowerShell junk / backups
+*.ps1.bak
+*.ps1.old
+*.tmp
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# VS Code
+.vscode/
+
+# Keep example files if we deliberately add them
+!examples/*.csv
+!examples/*.xlsx
